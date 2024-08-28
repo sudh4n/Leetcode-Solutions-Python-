@@ -29,7 +29,15 @@ n == nums.length
 1 <= nums[i] <= 1000"""
 
 #Solution
+#Example 1
 
 class Solution:
     def getConcatenation(self, nums: List[int]) -> List[int]:
         return nums + nums
+
+#Example 2
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return 2*nums
+
+
